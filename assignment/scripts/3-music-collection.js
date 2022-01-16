@@ -13,3 +13,9 @@ function addToCollection (title, artist, yearPublished){
 // Test
 console.log(addToCollection());
 console.log(collection);
+
+collection.push('DARE', 'Gorillaz', '2005');
+collection.push('Enter the Wu-Tang (36 Chambers)', 'Wu-Tang Clan', '1993')
+
+
+console.log(addToCollection(collection));
