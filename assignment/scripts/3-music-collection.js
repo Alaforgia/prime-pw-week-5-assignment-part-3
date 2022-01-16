@@ -25,4 +25,7 @@ for (var i = 0; i < collection.length; i++) {
   console.log(`${collection[i].title} by ${collection[i].artist} published in ${collection[i].yearPublished} was added to the collection`);
 }
 console.log(collection);
-// console.log(addToCollection(collection));
+
+function  showCollection(){
+
+}
