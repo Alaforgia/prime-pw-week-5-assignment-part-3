@@ -26,6 +26,10 @@ for (var i = 0; i < collection.length; i++) {
 }
 console.log(collection);
 
-function  showCollection(){
-
+function  showCollection(arr){
+  console.log(arr.length);
+  for (var i = 0; i < collection.length; i++) {
+    console.log(`${arr[i].title} by ${arr[i].artist}, published in ${arr[i].yearPublished}`);
+  }
 }
+showCollection(collection);
