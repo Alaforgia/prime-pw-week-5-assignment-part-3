@@ -48,10 +48,3 @@ return arr;
 console.log(findByArtist('Gorillaz'));
 console.log(findByArtist('Daft Punk'));
 console.log(findByArtist('Nirvana'));
-
-function search(userInput){
-  const searchProp = {
-
-  }
-
-}
