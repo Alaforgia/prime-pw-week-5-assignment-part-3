@@ -19,7 +19,8 @@ addToCollection('Enter the Wu-Tang (36 Chambers', 'Wu-Tang Clan', '1993');
 addToCollection('Imperial Bedroom', 'Chet Baker', '1982');
 addToCollection('Power in Numbers', 'Jurassic 5', '2002');
 addToCollection('Stankonia', 'Outkast', '2000');
-addToCollection('Discovery', 'Face to Face', '2001');
+addToCollection('Discovery', 'Daft Punk', '2001');
+addToCollection('Homework', 'Daft Punk', '1997');
 
 for (var i = 0; i < collection.length; i++) {
   console.log(`${collection[i].title} by ${collection[i].artist} published in ${collection[i].yearPublished} was added to the collection`);
@@ -34,6 +35,23 @@ function  showCollection(arr){
 }
 showCollection(collection);
 
-function findByArtist('artist'){
-  
+function findByArtist(artist){
+  const arr = [];
+  for (var i = 0; i < collection.length; i++) {
+    collection[i];
+    if (artist === collection[i].artist) {
+      arr.push(collection[i]);
+    }
+  }
+return arr;
+}
+console.log(findByArtist('Gorillaz'));
+console.log(findByArtist('Daft Punk'));
+console.log(findByArtist('Nirvana'));
+
+function search(userInput){
+  const searchProp = {
+
+  }
+
 }
