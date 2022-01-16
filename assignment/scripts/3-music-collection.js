@@ -8,8 +8,6 @@ function addToCollection (title, artist, yearPublished){
     yearPublished: yearPublished,
   }
   collection.push(musicList);
-  console.log(collection);
-  // console.log(`${title} by the ${artist} was released in ${yearPublished}`);
   return musicList;
 }
  // // Test
@@ -23,4 +21,8 @@ addToCollection('Power in Numbers', 'Jurassic 5', '2002');
 addToCollection('Stankonia', 'Outkast', '2000');
 addToCollection('Discovery', 'Face to Face', '2001');
 
+for (var i = 0; i < collection.length; i++) {
+  console.log(`${collection[i].title} by ${collection[i].artist} published in ${collection[i].yearPublished} was added to the collection`);
+}
+console.log(collection);
 // console.log(addToCollection(collection));
